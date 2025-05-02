@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "tilepuzzle": {
+      "command": "python",
+      "args": [
+        "C:/claude_mcp_work/TilePuzzle_MCP/slidepuzzle.py"
+      ]
+    }
+  }
+}
