@@ -23,10 +23,6 @@ Model Context Protocol (MCP) を活用したタイルスライドパズル（8�
 以下のコマンドで開発環境を構築します：
 
 ```bash
-# プロジェクトディレクトリの作成
-mkdir TilePuzzle_MCP
-cd TilePuzzle_MCP
-
 # 依存パッケージのインストール
 pip install mcp[cli] numpy
 ```
