@@ -27,23 +27,8 @@ Model Context Protocol (MCP) を活用したタイルスライドパズル（8�
 mkdir TilePuzzle_MCP
 cd TilePuzzle_MCP
 
-# 仮想環境の作成と有効化（Pythonの場合）
-python -m venv venv
-venv\Scripts\activate  # Windowsの場合
-
 # 依存パッケージのインストール
 pip install mcp[cli] numpy
-
-# サーバースクリプトファイルの作成
-# slidepuzzle.py を作成して、コードを記述
-```
-
-## サーバーの起動
-
-作成したサーバーは以下のコマンドで起動します：
-
-```bash
-python slidepuzzle.py
 ```
 
 ## Claude Desktop との連携設定
